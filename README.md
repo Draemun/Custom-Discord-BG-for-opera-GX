@@ -1,0 +1,1 @@
+# Custom-Discord-BG-for-opera-GX
