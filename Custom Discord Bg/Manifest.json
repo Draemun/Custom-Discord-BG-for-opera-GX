@@ -1,0 +1,32 @@
+{
+    "manifest_version": 3,
+    "name": "Discord - Custom Theme",
+    "description": "Go to https://www.atatus.com/tools/image-to-url and turn your .png image into an url. Then go to main on line 172 and paste it there. Do the same for changecolors on line 8.",
+    "version": "1.31.0",
+    "author": "Draemun",
+    "developer":
+    {
+        "name": "Draemun"
+    },
+    "mod":
+    {
+        "schema_version": 1,
+        "payload":
+        { 
+            "page_styles":
+            [
+                {
+                    "matches":
+                    [
+                        "https://*.discord.com/*"
+                    ],
+                    "css":
+                    [
+                        "css/changecolors.css",
+                        "css/main.css"
+                                           ]
+                }
+            ]
+        }
+    }
+}
